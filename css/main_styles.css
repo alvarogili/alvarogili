@@ -1,0 +1,200 @@
+/************** general ********************/
+@font-face{  
+            font-family:"konstytucyja_091";  
+            src:url('../font/konstytucyja_091.otf');
+            src:url('../font/konstytucyja_091.ttf');              
+        }
+@font-face{
+    font-family: "HARLOWSI";
+    src:url('../font/HARLOWSI.TTF');
+}  
+
+a {
+    text-decoration: none;
+    color: DimGray;
+}
+
+
+a:hover {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;  
+}
+
+aside{
+    background: Gainsboro;
+}       
+
+body{
+    background-color: DimGray;
+    behavior: url(htc/PIE.htc);         
+    box-shadow: 10px 10px 20px #444;
+    font-size: 16px;
+    margin: 0 auto; 
+    max-width: 1024px;
+}
+
+header{
+    background-color: #CFC7A4;      
+    padding: 0% 4% 1%;  
+}
+
+nav{
+    background-color: WhiteSmoke;
+    behavior: url(htc/PIE.htc);
+    color: DimGray;     
+    font-size:20px;
+    padding: 10px 0px;
+    text-align:center;  
+    text-shadow: #696969 2px 2px 4px;    
+}
+
+nav div{
+    display: inline-block;
+    behavior: url(htc/PIE.htc);
+    width: 19%;
+}
+
+section{
+    background:Gainsboro;
+    color: DimGray; 
+    font-family: Calibri, Arial;
+    padding: 2% 5% 3% 5%;
+    text-align: justify;
+}
+
+textarea { 
+    resize: none; 
+}
+
+#menu_corriente {
+    behavior: url(htc/PIE.htc);
+    color: blue;
+    text-shadow: #6495ED 2px 2px 4px;
+}
+
+#logo_header{   
+    behavior: url(htc/PIE.htc);
+    font-family: "HARLOWSI", Arial;
+    font-size: 450%;
+    padding-left: 3%;
+}
+
+#logo_header, #tex_header{
+    behavior: url(htc/PIE.htc);
+    color: #F5F5F5;
+    display: inline-block;
+    text-shadow: 1px 1px 0px rgb(230,230,230),  
+        2px 2px 0px rgb(200,200,200),  
+        3px 3px 0px rgb(180,180,180),  
+        2px 2px 0px rgb(160,160,160),  
+        4px 4px 5px rgb(0,0,0);
+    vertical-align: middle;
+    width:47%;
+}
+
+#tex_header{
+    behavior: url(htc/PIE.htc);
+    font-family: "konstytucyja_091", Arial;
+    font-size: 35px;
+    font-style: italic;
+    font-weight:bold;
+    text-align:right;   
+}
+/***************** index.html ********************/
+.texto_index{   
+    text-align: justify;
+}
+
+.texto_index a{
+    color: RoyalBlue;
+    font-style: italic;    
+}
+
+/************** disWeb.html **********************/
+.sitio_web{    
+    display: inline-block;
+    text-align: center; 
+    font-size:.9em;   
+    font-style:italic;
+    width:49%;
+}
+
+/************** contacto.html ********************/
+
+#aside_contacto{
+    background:Gainsboro;   
+    behavior: url(htc/PIE.htc);
+    display: inline-block;
+    font-family: Calibri, Arial;
+    width:48%;
+    padding-top: 2%;
+    text-align: right;
+    vertical-align: top;
+    width: 15%;
+}
+
+#aside_contacto img {
+    border: 0px;    
+}
+
+#aside_contacto img:hover {
+    behavior: url(htc/PIE.htc);
+    transition: all .5s linear; 
+    transform: rotate(360deg);
+}
+
+#boton_enviar{
+    text-align: right;
+    width: 50%;
+}
+
+#div_contacto{
+    padding-left: 10%;
+}
+
+#section_contacto{
+    display: inline-block;
+    padding-left: 5%;
+    width: 60%;
+}
+
+.campoForm{
+    width: 50%;
+}
+/************glosario.html************************************/
+#indice a{
+    color: RoyalBlue;
+    font-style: italic;
+}
+
+#volver{
+    position:fixed; 
+    bottom:0; 
+    left:0;
+}
+
+.ir_arriba{ 
+    padding: .5% 0%;
+    vertical-align: middle;
+}
+
+.letra{
+    background-color: DimGray;  
+    behavior: url(htc/PIE.htc);
+    border-bottom: 0px solid #999;
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;  
+    padding: .5% 0%;
+    text-align: center;
+    vertical-align: middle;
+    width: 100%;    
+}
+
+.linea_glosario td{
+    padding: 1%;
+    vertical-align: middle;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<title>Alvaro Gili - Contacto</title>
+	<link rel="shortcut icon" href="../imagenes/logo_a.png" type="image/x-icon">
+	<link href="../css/main_styles.css" rel="stylesheet" />	
+	<script src="../js/prefixfree.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<!--[if lt IE 9]>
+		<script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->    	
+</head>
+<body onload="showMensaje()">
+	<header>
+		<div id="logo_header">
+			Alvaro Gili
+		</div>
+		<div id="tex_header">
+			<br>
+			Desarrollo de software<br>
+			Diseño web
+		</div>
+	</header>
+	<nav>
+		<div><a href="../.">Inicio</a></div>
+		<div><a href="../curriculum">Curriculum</a></div>
+		<div><a href="../disWeb">Diseño web</a></div>
+		<div><a href="../otras">Otras actividades</a></div>
+		<div><a id="menu_corriente" href="./">Contácto</a></div>
+	</nav>
+	<section>
+		<section id="hide_msg">Gracias por contactarme, pronto te estaré respondiendo</section>
+		<section id="section_contacto">
+			<article>
+				Para contáctarme puedes enviarme un mensaje: <br>
+				<br>
+				<form id="contacto" method="post" action="enviar.php">
+					<div id="div_contacto">
+						Apellido y Nombre*:<br><br>
+						<input class="campoForm" tabindex="1" name="nombre" id="nombre" required /><br><br>
+						E-mail*:<br><br>
+						<input class="campoForm" type="email" tabindex="2" name="mail" id="mail" required /><br><br>
+						Mensaje*:<br><br>
+						<textarea name="mensaje" id="mensaje" rows="8" class="campoForm" tabindex="3" required ></textarea><br><br>
+						<div id="boton_enviar">
+							<input name="Submit" value="    Enviar    " type="submit" /><br>
+						</div>
+					</div>
+				</form>
+			</article>
+		</section>
+		<aside id="aside_contacto">
+			Encuentrame en:<br>
+			<br>
+			<a href="https://www.facebook.com/alvarogili" target="_blank"><img src="../imagenes/facebook.png"></a>
+			<br><br>
+			<a href="https://twitter.com/#!/alvarogili" target="_blank"><img src="../imagenes/twitter.png"></a>
+			<br><br>
+			<a href="https://plus.google.com/u/0/102088558730841416308/posts" target="_blank"><img src="../imagenes/google-plus.png"></a>
+			<br><br>
+			<a href="http://ar.linkedin.com/pub/alvaro-franco-gili/27/116/470" target="_blank"><img src="../imagenes/linkedin.png"></a>
+		</aside>
+	</section>	
+</body>
+</html>
